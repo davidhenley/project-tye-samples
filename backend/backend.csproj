@@ -8,4 +8,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <ContainerBaseImage>mcr.microsoft.com/dotnet/aspnet</ContainerBaseImage>
+    <ContainerBaseTag>5.0</ContainerBaseTag>
+  </PropertyGroup>
+
 </Project>
